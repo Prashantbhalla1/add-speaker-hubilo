@@ -60,13 +60,13 @@ const AddSpeakerSidebar = ({ isOpen, closeSidebar }) => {
     
      </div>
      <div className="d-flex-row1 footer p-4 " >
-        <div className="w-70" 
+        <div className="w-70 res-60" 
         
         >
         <button  className={`add-btn w-80 mr-1  ${!isAnyItemChecked?'disabled':''} `}  disabled={!isAnyItemChecked} > Add </button>
         <button className="cancel-btn w-80"   > Cancel </button>
         </div>
-        <p className="orange-p" > Create a speaker </p>
+        <p className="orange-p ml-neg-rem" > Create a speaker </p>
      </div>
 
 
